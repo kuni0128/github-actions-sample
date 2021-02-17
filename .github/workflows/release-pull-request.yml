@@ -21,8 +21,8 @@ jobs:
           token: ${{ secrets.GITHUB_TOKEN }}
           commit-message: test
           signoff: false
-          base: main
-          branch: develop
+          base: develop
+          branch: main
           delete-branch: false
           title: Release ${{ github.ref }}
           body: |
