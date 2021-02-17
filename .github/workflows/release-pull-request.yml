@@ -19,7 +19,7 @@ jobs:
           token: ${{ secrets.PAT }}
           commit-message: test
           signoff: false
-          branch: release-${{ github.ref }}
+          branch: develop
           delete-branch: true
           title: Release ${{ github.ref }}
           body: |
