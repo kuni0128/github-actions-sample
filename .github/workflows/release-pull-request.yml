@@ -21,8 +21,9 @@ jobs:
           token: ${{ secrets.PAT }}
           commit-message: test
           signoff: false
-          branch: main
-          delete-branch: true
+          base: main
+          branch: develop
+          delete-branch: false
           title: Release ${{ github.ref }}
           body: |
             Update report
